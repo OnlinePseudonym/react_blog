@@ -15,7 +15,6 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Route path="/" component={PostsIndex} />
-        <Route path="/post/:id" component={posts} />
       </div>
     </BrowserRouter>
   </Provider>
